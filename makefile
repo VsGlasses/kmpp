@@ -7,4 +7,4 @@ $(TARGET) : header.html kmpp.js footer.html
 
 .PHONY : clean
 clean :
-	rm -f $(TARGET)
+	$(RM) $(TARGET)
